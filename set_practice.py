@@ -26,3 +26,12 @@ setA.symmetric_difference_update(setB)
 print(setA)
 setA=setA^setB
 print(setA)
+
+
+'''
+Any operation that doesn't modify the set
+can be used on the frozen set. 
+'''
+setA={34,23,11,"sdsd"}
+fsetA=frozenset(setA)
+
